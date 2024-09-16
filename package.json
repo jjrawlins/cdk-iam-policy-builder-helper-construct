@@ -1,9 +1,9 @@
 {
-  "name": "@layerborn/cdk-iam-policy-builder-helper",
+  "name": "@jjrawlins/cdk-iam-policy-builder-helper",
   "description": "A CDK construct that helps build IAM policies using the AWS IAM Policy Builder dump. Normally it is better to use cdk-iam-floyd, However, I found that cdk-iam-floyd currently is not jsii compliant so I wasn't able to use it in my jsii compliant projects in languages that are not typescript or python.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/layerborn/cdk-iam-policy-builder-helper-construct.git"
+    "url": "https://github.com/jjrawlins/cdk-iam-policy-builder-helper-construct.git"
   },
   "scripts": {
     "build": "npx projen build",
@@ -13,7 +13,6 @@
     "compile": "npx projen compile",
     "default": "npx projen default",
     "docgen": "npx projen docgen",
-    "download-policies": "npx projen download-policies",
     "eject": "npx projen eject",
     "eslint": "npx projen eslint",
     "package": "npx projen package",
@@ -32,7 +31,7 @@
   },
   "author": {
     "name": "Jayson Rawlins",
-    "email": "jayson.rawlins@layerborn.io",
+    "email": "JaysonJ.Rawlins@gmail.com",
     "organization": false
   },
   "devDependencies": {
@@ -137,11 +136,11 @@
     "outdir": "dist",
     "targets": {
       "python": {
-        "distName": "layerborn.cdk-iam-policy-builder-helper",
-        "module": "layerborn.cdk_iam_policy_builder_helper"
+        "distName": "jjrawlins.cdk-iam-policy-builder-helper",
+        "module": "jjrawlins.cdk_iam_policy_builder_helper"
       },
       "go": {
-        "moduleName": "github.com/layerborn/cdk-iam-policy-builder-helper-construct"
+        "moduleName": "github.com/jjrawlins/cdk-iam-policy-builder-helper-construct"
       }
     },
     "tsc": {

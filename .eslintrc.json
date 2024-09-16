@@ -148,7 +148,6 @@
         "devDependencies": [
           "**/test/**",
           "**/build-tools/**",
-          "cdk.github.workflows.ts",
           ".projenrc.ts",
           "projenrc/**/*.ts"
         ],

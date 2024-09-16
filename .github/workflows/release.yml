@@ -48,6 +48,8 @@ jobs:
         if: ${{ steps.git_remote.outputs.latest_commit == github.sha }}
         run: cd dist && getfacl -R . > permissions-backup.acl
         continue-on-error: true
+        with:
+          include-hidden-files: "true"
       - name: Upload artifact
         if: ${{ steps.git_remote.outputs.latest_commit == github.sha }}
         uses: actions/upload-artifact@v4

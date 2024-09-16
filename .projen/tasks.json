@@ -109,15 +109,6 @@
         }
       ]
     },
-    "download-policies": {
-      "name": "download-policies",
-      "description": "Download the latest IAM policies from AWS",
-      "steps": [
-        {
-          "exec": "ts-node ./src/bin/download-actions-json.ts\nts-node ./src/bin/download-managed-policies-json.ts\nts-node ./src/bin/create-actions-json.ts"
-        }
-      ]
-    },
     "eject": {
       "name": "eject",
       "description": "Remove projen from the project",
@@ -215,15 +206,17 @@
       "steps": [
         {
           "spawn": "docgen"
-        },
-        {
-          "exec": "rm tsconfig.json"
         }
       ]
     },
     "pre-compile": {
       "name": "pre-compile",
-      "description": "Prepare the project for compilation"
+      "description": "Prepare the project for compilation",
+      "steps": [
+        {
+          "exec": "ts-node ./src/bin/download-actions-json.ts &&\nts-node ./src/bin/download-managed-policies-json.ts &&\nts-node ./src/bin/create-actions-json.ts"
+        }
+      ]
     },
     "release": {
       "name": "release",
