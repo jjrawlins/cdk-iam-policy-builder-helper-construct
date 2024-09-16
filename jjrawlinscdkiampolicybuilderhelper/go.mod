@@ -1,4 +1,4 @@
-module github.com/layerborn/cdk-iam-policy-builder-helper-construct/layerborncdkiampolicybuilderhelper
+module github.com/jjrawlins/cdk-iam-policy-builder-helper-construct/jjrawlinscdkiampolicybuilderhelper
 
 go 1.18
 
