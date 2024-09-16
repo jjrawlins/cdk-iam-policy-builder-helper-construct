@@ -8,7 +8,7 @@ TypeScript, Python, and Golang.  Since this construct is jsii compliant, hopeful
 
 The following is the TypeScript version:
 
-```typescript
+```go
 import { App, Stack, Effect } from 'aws-cdk-lib';
 import { ManagedPolicy, Role, ServicePrincipal, PolicyDocument, PolicyStatement, } from 'aws-cdk-lib/aws-iam';
 import { Actions, ManagedPolicies } from '../src';
