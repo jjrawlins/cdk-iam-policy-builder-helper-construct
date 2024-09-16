@@ -69,7 +69,7 @@ project.github!.actions.set('actions/download-artifact', 'actions/download-artif
 
 const releaseWorkflow = project.github!.tryFindWorkflow('release');
 if (releaseWorkflow) {
-  releaseWorkflow.file!.addOverride('jobs.release.steps.7.with.include-hidden-files', true);
+  releaseWorkflow.file!.addOverride('jobs.release.steps.8.with.include-hidden-files', true);
 }
 
 project.synth();
