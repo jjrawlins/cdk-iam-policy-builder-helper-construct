@@ -222,6 +222,15 @@ new YamlFile(project, 'pnpm-workspace.yaml', {
     // the gap Dependabot's cooldown can't close (it ages direct deps only).
     // Must stay <= every Dependabot cooldown above or bump PRs can't resolve.
     minimumReleaseAge: 10080,
+    // GHSA-c7q8-3ch8-vqpv / CVE-2026-83616. jsii-rosetta depends on
+    // @xmldom/xmldom '^0.9.10', which still resolves to the vulnerable (and now
+    // npm-deprecated) 0.9.10. Float the transitive pin onto the patched line
+    // until jsii-rosetta raises its own floor. This lives here rather than in
+    // projen's addPackageResolutions() because that writes package.json's
+    // `pnpm.overrides`, which pnpm 11 no longer reads.
+    overrides: {
+      '@xmldom/xmldom': '^0.9.12',
+    },
     // jsii bundledDependencies require a flat node_modules; pnpm's default
     // isolated linker hard-errors at `pnpm pack`.
     nodeLinker: 'hoisted',
