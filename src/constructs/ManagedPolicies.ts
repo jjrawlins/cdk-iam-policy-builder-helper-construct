@@ -5875,10 +5875,6 @@ export const ManagedPolicies = {
     PolicyName: 'AnthropicReadOnlyAccess',
     Arn: 'arn:aws:iam::aws:policy/AnthropicReadOnlyAccess',
   },
-  'AnthropicInferenceAccess': {
-    PolicyName: 'AnthropicInferenceAccess',
-    Arn: 'arn:aws:iam::aws:policy/AnthropicInferenceAccess',
-  },
   'AnthropicLimitedAccess': {
     PolicyName: 'AnthropicLimitedAccess',
     Arn: 'arn:aws:iam::aws:policy/AnthropicLimitedAccess',
@@ -5922,5 +5918,169 @@ export const ManagedPolicies = {
   'AmazonSageMakerCapacityReservationServiceRolePolicy': {
     PolicyName: 'AmazonSageMakerCapacityReservationServiceRolePolicy',
     Arn: 'arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerCapacityReservationServiceRolePolicy',
+  },
+  'AWSBedrockAgentCoreIdentityNetworkServiceRolePolicy': {
+    PolicyName: 'AWSBedrockAgentCoreIdentityNetworkServiceRolePolicy',
+    Arn: 'arn:aws:iam::aws:policy/aws-service-role/AWSBedrockAgentCoreIdentityNetworkServiceRolePolicy',
+  },
+  'AmazonEBSCSIDriverPolicyV2': {
+    PolicyName: 'AmazonEBSCSIDriverPolicyV2',
+    Arn: 'arn:aws:iam::aws:policy/AmazonEBSCSIDriverPolicyV2',
+  },
+  'AmazonEBSCSIDriverEKSClusterScopedPolicy': {
+    PolicyName: 'AmazonEBSCSIDriverEKSClusterScopedPolicy',
+    Arn: 'arn:aws:iam::aws:policy/AmazonEBSCSIDriverEKSClusterScopedPolicy',
+  },
+  'EC2ApplicationStatusChecksServiceRolePolicy': {
+    PolicyName: 'EC2ApplicationStatusChecksServiceRolePolicy',
+    Arn: 'arn:aws:iam::aws:policy/aws-service-role/EC2ApplicationStatusChecksServiceRolePolicy',
+  },
+  'AWSMarketplaceDiscoveryFullAccess': {
+    PolicyName: 'AWSMarketplaceDiscoveryFullAccess',
+    Arn: 'arn:aws:iam::aws:policy/AWSMarketplaceDiscoveryFullAccess',
+  },
+  'CloudWatchAPIKeyAccess': {
+    PolicyName: 'CloudWatchAPIKeyAccess',
+    Arn: 'arn:aws:iam::aws:policy/CloudWatchAPIKeyAccess',
+  },
+  'AWSAppConfigServiceRolePolicy': {
+    PolicyName: 'AWSAppConfigServiceRolePolicy',
+    Arn: 'arn:aws:iam::aws:policy/aws-service-role/AWSAppConfigServiceRolePolicy',
+  },
+  'AWSVPCFlowLogsServiceRolePolicy': {
+    PolicyName: 'AWSVPCFlowLogsServiceRolePolicy',
+    Arn: 'arn:aws:iam::aws:policy/aws-service-role/AWSVPCFlowLogsServiceRolePolicy',
+  },
+  'AmazonEKSBlockStoragePolicyV2': {
+    PolicyName: 'AmazonEKSBlockStoragePolicyV2',
+    Arn: 'arn:aws:iam::aws:policy/AmazonEKSBlockStoragePolicyV2',
+  },
+  'AmazonSageMakerModelCustomizationCoreAccess': {
+    PolicyName: 'AmazonSageMakerModelCustomizationCoreAccess',
+    Arn: 'arn:aws:iam::aws:policy/AmazonSageMakerModelCustomizationCoreAccess',
+  },
+  'AWSResilienceHubServiceRolePolicy': {
+    PolicyName: 'AWSResilienceHubServiceRolePolicy',
+    Arn: 'arn:aws:iam::aws:policy/aws-service-role/AWSResilienceHubServiceRolePolicy',
+  },
+  'AWSApplicationMigrationFSxProxyPolicy': {
+    PolicyName: 'AWSApplicationMigrationFSxProxyPolicy',
+    Arn: 'arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationFSxProxyPolicy',
+  },
+  'AWSApplicationMigrationFSxProxyVPCPolicy': {
+    PolicyName: 'AWSApplicationMigrationFSxProxyVPCPolicy',
+    Arn: 'arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationFSxProxyVPCPolicy',
+  },
+  'AmazonSageMakerJobRuntimeAccess': {
+    PolicyName: 'AmazonSageMakerJobRuntimeAccess',
+    Arn: 'arn:aws:iam::aws:policy/AmazonSageMakerJobRuntimeAccess',
+  },
+  'AmazonSageMakerJobFullAccess': {
+    PolicyName: 'AmazonSageMakerJobFullAccess',
+    Arn: 'arn:aws:iam::aws:policy/AmazonSageMakerJobFullAccess',
+  },
+  'AWSQuickSetupPatchPolicyTagManagementExecutionPolicy': {
+    PolicyName: 'AWSQuickSetupPatchPolicyTagManagementExecutionPolicy',
+    Arn: 'arn:aws:iam::aws:policy/AWSQuickSetupPatchPolicyTagManagementExecutionPolicy',
+  },
+  'AWSQuickSetupPatchPolicyLambdaExecutionPolicy': {
+    PolicyName: 'AWSQuickSetupPatchPolicyLambdaExecutionPolicy',
+    Arn: 'arn:aws:iam::aws:policy/AWSQuickSetupPatchPolicyLambdaExecutionPolicy',
+  },
+  'FinOpsAgentOperatorPolicy': {
+    PolicyName: 'FinOpsAgentOperatorPolicy',
+    Arn: 'arn:aws:iam::aws:policy/FinOpsAgentOperatorPolicy',
+  },
+  'FinOpsAgentAgentPolicy': {
+    PolicyName: 'FinOpsAgentAgentPolicy',
+    Arn: 'arn:aws:iam::aws:policy/FinOpsAgentAgentPolicy',
+  },
+  'EC2ImageBuilderExecutionPolicy': {
+    PolicyName: 'EC2ImageBuilderExecutionPolicy',
+    Arn: 'arn:aws:iam::aws:policy/EC2ImageBuilderExecutionPolicy',
+  },
+  'ReInventTicketApprovalAccess': {
+    PolicyName: 'ReInventTicketApprovalAccess',
+    Arn: 'arn:aws:iam::aws:policy/ReInventTicketApprovalAccess',
+  },
+  'AWSSecurityAgentServiceRolePolicy': {
+    PolicyName: 'AWSSecurityAgentServiceRolePolicy',
+    Arn: 'arn:aws:iam::aws:policy/aws-service-role/AWSSecurityAgentServiceRolePolicy',
+  },
+  'AnthropicSelfHostedEnvironmentAccess': {
+    PolicyName: 'AnthropicSelfHostedEnvironmentAccess',
+    Arn: 'arn:aws:iam::aws:policy/AnthropicSelfHostedEnvironmentAccess',
+  },
+  'AWSResilienceHubV2AssessmentExecutionPolicy': {
+    PolicyName: 'AWSResilienceHubV2AssessmentExecutionPolicy',
+    Arn: 'arn:aws:iam::aws:policy/AWSResilienceHubV2AssessmentExecutionPolicy',
+  },
+  'AWSLambdaNetworkConnectorOperatorPolicy': {
+    PolicyName: 'AWSLambdaNetworkConnectorOperatorPolicy',
+    Arn: 'arn:aws:iam::aws:policy/AWSLambdaNetworkConnectorOperatorPolicy',
+  },
+  'AWSConfigThirdPartyServiceRolePolicy': {
+    PolicyName: 'AWSConfigThirdPartyServiceRolePolicy',
+    Arn: 'arn:aws:iam::aws:policy/aws-service-role/AWSConfigThirdPartyServiceRolePolicy',
+  },
+  'AmazonEMRServicePolicyForSessions': {
+    PolicyName: 'AmazonEMRServicePolicyForSessions',
+    Arn: 'arn:aws:iam::aws:policy/service-role/AmazonEMRServicePolicyForSessions',
+  },
+  'AIDevOpsAgentActionsPolicy': {
+    PolicyName: 'AIDevOpsAgentActionsPolicy',
+    Arn: 'arn:aws:iam::aws:policy/AIDevOpsAgentActionsPolicy',
+  },
+  'AmazonInspector2ThirdPartyServiceRolePolicy': {
+    PolicyName: 'AmazonInspector2ThirdPartyServiceRolePolicy',
+    Arn: 'arn:aws:iam::aws:policy/aws-service-role/AmazonInspector2ThirdPartyServiceRolePolicy',
+  },
+  'AccountAccessManagerServiceRolePolicy': {
+    PolicyName: 'AccountAccessManagerServiceRolePolicy',
+    Arn: 'arn:aws:iam::aws:policy/aws-service-role/AccountAccessManagerServiceRolePolicy',
+  },
+  'AWSRevenueAttributionManagement': {
+    PolicyName: 'AWSRevenueAttributionManagement',
+    Arn: 'arn:aws:iam::aws:policy/AWSRevenueAttributionManagement',
+  },
+  'AWSPartnerCentralRevenueAttributionManagement': {
+    PolicyName: 'AWSPartnerCentralRevenueAttributionManagement',
+    Arn: 'arn:aws:iam::aws:policy/AWSPartnerCentralRevenueAttributionManagement',
+  },
+  'AWSArtifactComplianceInquiriesFullAccess': {
+    PolicyName: 'AWSArtifactComplianceInquiriesFullAccess',
+    Arn: 'arn:aws:iam::aws:policy/AWSArtifactComplianceInquiriesFullAccess',
+  },
+  'AWSArtifactComplianceInquiriesReadOnlyAccess': {
+    PolicyName: 'AWSArtifactComplianceInquiriesReadOnlyAccess',
+    Arn: 'arn:aws:iam::aws:policy/AWSArtifactComplianceInquiriesReadOnlyAccess',
+  },
+  'AWSTransformSecurityAgentExecutorAccess': {
+    PolicyName: 'AWSTransformSecurityAgentExecutorAccess',
+    Arn: 'arn:aws:iam::aws:policy/AWSTransformSecurityAgentExecutorAccess',
+  },
+  'AWSElasticBeanstalkEKSObservability': {
+    PolicyName: 'AWSElasticBeanstalkEKSObservability',
+    Arn: 'arn:aws:iam::aws:policy/AWSElasticBeanstalkEKSObservability',
+  },
+  'AWSElasticBeanstalkEKSTagging': {
+    PolicyName: 'AWSElasticBeanstalkEKSTagging',
+    Arn: 'arn:aws:iam::aws:policy/AWSElasticBeanstalkEKSTagging',
+  },
+  'AWSElasticBeanstalkEKSImageBuild': {
+    PolicyName: 'AWSElasticBeanstalkEKSImageBuild',
+    Arn: 'arn:aws:iam::aws:policy/AWSElasticBeanstalkEKSImageBuild',
+  },
+  'DBModVirtualSource': {
+    PolicyName: 'DBModVirtualSource',
+    Arn: 'arn:aws:iam::aws:policy/DBModVirtualSource',
+  },
+  'AWSTransformRevenueAttributionPolicy': {
+    PolicyName: 'AWSTransformRevenueAttributionPolicy',
+    Arn: 'arn:aws:iam::aws:policy/AWSTransformRevenueAttributionPolicy',
+  },
+  'AWSMCPSignInOAuthAccessPolicy': {
+    PolicyName: 'AWSMCPSignInOAuthAccessPolicy',
+    Arn: 'arn:aws:iam::aws:policy/AWSMCPSignInOAuthAccessPolicy',
   },
 };
